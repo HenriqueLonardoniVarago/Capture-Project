@@ -1,0 +1,165 @@
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+  background-color: black;
+  font-family: sans-serif;
+
+}
+
+h2 {
+
+  font-size: 1.3em;
+
+}
+
+p {
+
+  font-size: 1em;
+
+}
+
+form {
+
+ margin-top: 10px;
+
+}
+
+.header {
+
+  background-color: rgb(47, 177, 221);
+  color: white;
+
+  text-transform: uppercase ;
+  text-align: center;
+  
+  padding: 10px;
+
+}
+
+@media only screen and (max-height:690px) {
+
+  .header {
+
+    font-size: 12px;
+
+  }
+
+}
+
+#section_container {
+
+ background: url("./images/people.jpg") top/cover no-repeat local;
+ height: 40em;
+
+}
+
+.form_container {
+
+  max-width: 290px;
+  height: 465px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  float: right;
+  position: relative;
+  margin-top: 5%;
+  margin-right: calc(5vw - 1vw);
+}
+
+.mb {
+
+  margin-bottom: 15px;
+
+}
+
+.mb2 {
+
+ margin-bottom: 30px;
+
+}
+
+input, select {
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 17px;
+  border: none;
+  margin-bottom: 10px
+
+}
+
+input[type="submit"] {
+
+ cursor: pointer;
+ color: white;
+ background-color: rgb(47, 177, 221);
+ font-weight: bold;
+ font-size: 16px;
+
+}
+
+#select_form {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("./images/arrow.jpg");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+
+}
+
+footer {
+
+ width: calc(100% - padding);
+ height: calc(100% - 5%);
+ color: white;
+ background-color: #202121;
+ padding: 40px;
+ text-align: center;
+
+}
+
+#palestrante_image {
+
+ width: 160px;
+
+}
+
+.descricão {
+
+  display: inline-block;
+  position: relative;
+  max-width: 40%;
+  margin-left: 40px;
+  text-align: left;
+
+}
+
+.descricão p, .descricão h3 {
+
+  margin-bottom: 20px;
+
+}
+
+.descricão h3 {
+
+  font-size: 24px;
+
+}
+
+@media only screen and (max-height: 690px) {
+
+  .descricão {
+
+    font-size: 13px;
+
+  }
+
+}
